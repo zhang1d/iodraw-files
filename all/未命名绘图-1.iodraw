@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="DRvnqv1yQd2SI2S-ypbq">
-    <mxGraphModel dx="2140" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2111" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,6 +107,60 @@
               <mxPoint x="275" y="192" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-22" value="传感器  [形状=圆角矩形]  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="630" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-23" value="上电初始化  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-22">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-24" value="读取设备  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="630" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-25" value="发送起始信号  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-24">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-26" value="释放单总线  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="630" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-27" value="等待传感器响应信号  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-26">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-28" value="无响应信号  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-29" value="有响应信号  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-30" value="读取设备  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="630" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-31" value="连续读取40位数据  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-30">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-32" value="数据校验  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-33" value="校验正确  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-32">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-34" value="更新温湿度值  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-35" value="等待  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="630" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-36" value="（固定采集周期）  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLmby_Aaxdmlm0_YufIK-35">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-37" value="否  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-38" value="固定采集时间到？  " style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLmby_Aaxdmlm0_YufIK-39" value="是" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="630" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
